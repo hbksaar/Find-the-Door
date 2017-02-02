@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{B84C35D1-8E65-2785-7FDB-44459B67D7D7}") = "Into the dark Spotlight Vive", "Assembly-CSharp.csproj", "{06CC2B1B-B526-7801-AF2F-99A643C8309A}"
+EndProject
+Project("{B84C35D1-8E65-2785-7FDB-44459B67D7D7}") = "Into the dark Spotlight Vive", "Assembly-CSharp-Editor.csproj", "{1A2D5028-442C-2587-B143-7CECC2B8AC9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06CC2B1B-B526-7801-AF2F-99A643C8309A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CC2B1B-B526-7801-AF2F-99A643C8309A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CC2B1B-B526-7801-AF2F-99A643C8309A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CC2B1B-B526-7801-AF2F-99A643C8309A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2D5028-442C-2587-B143-7CECC2B8AC9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2D5028-442C-2587-B143-7CECC2B8AC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2D5028-442C-2587-B143-7CECC2B8AC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2D5028-442C-2587-B143-7CECC2B8AC9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
