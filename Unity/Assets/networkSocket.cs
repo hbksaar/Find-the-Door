@@ -21,6 +21,7 @@ public class networkSocket : MonoBehaviour
         writeSocket(LaserPointPos);
         if (!socket_ready)
         {
+          Debug.Log("Trying to reconnect..");
           closeSocket();
           setupSocket();
         }
@@ -49,6 +50,7 @@ public class networkSocket : MonoBehaviour
             net_stream = tcp_socket.GetStream();
             socket_writer = new StreamWriter(net_stream);
             socket_ready = true;
+            Debug.Log("Connected");
         }
         catch (Exception e)
         {

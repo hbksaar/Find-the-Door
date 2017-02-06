@@ -1,0 +1,21 @@
+x = 0
+p1 = -3.5 p3 = 2.3
+
+x = 2
+p1 = 3.5 
+
+oben hintenlinks -3.5 1.0 2.3
+unten hintenlinks -3.5 4.0 2.3
+
+oben vornelinks 3.5 4.0 2.3
+unten vornelinks 3.5 1.0 2.3
+
+oben vornerechts 3.5 4.0 -2.3
+unten vornerechts 3.5 1.0 -2.3
+
+oben hintenrechts -3.5 4.0 -2.3
+unten hintenrechts -3.5 1.0 -2.3
+
+height: map 2nd pvectorinformation from 1 to 4.0 for height and constrain it
+width:
+
